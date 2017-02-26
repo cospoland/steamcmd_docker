@@ -12,4 +12,5 @@ cd /data/steamcmd
 tar zxf /tmp/steamcmd.tar.gz
 
 echo "Starting user script..."
+cd /data
 bash run.sh
