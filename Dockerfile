@@ -6,4 +6,4 @@ RUN apt-get -y autoremove && apt-get clean
 COPY update-steamcmd.sh /update-steamcmd.sh
 VOLUME "/data"
 WORKDIR "/data"
-CMD ["/update-steamcmd.sh "]
+CMD ["/bin/bash", "/update-steamcmd.sh"]
